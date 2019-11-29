@@ -13,7 +13,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://aki19-portfolio.netlify.com/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Kosugi+Maru&amp;subset=japanese' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Kosugi+Maru|Ribeye&display=swap' }
     ]
   },
   modules: [
