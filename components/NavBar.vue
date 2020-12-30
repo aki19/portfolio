@@ -21,8 +21,8 @@
 						<p class="control">
 							<a class="bd-tw-button button is-primary is-inverted"
 							   data-social-network="Twitter" data-social-action="tweet"
-							   data-social-target="http://alicesystems.lomo.jp/portfolio" target="_blank"
-							   href="https://twitter.com/intent/tweet?text=aki19@AliceSystems&amp;url=http://alicesystems.lomo.jp/portfolio">
+							   data-social-target="https://aki19-portfolio.netlify.app/" target="_blank"
+							   href="https://twitter.com/intent/tweet?text=aki19@AliceSystems&amp;url=https://aki19-portfolio.netlify.app/">
 								<span class="icon">
 									<i class="fa fa-twitter"></i>
 								</span>
@@ -39,7 +39,7 @@
 <script>
 	import memo from '~/pages/memo.vue'
 	import history from '~/pages/history.vue'
-	
+
 	export default {
 		name: "NavBar",
 		components: {
@@ -61,12 +61,12 @@
 	.navbar {
 		margin-bottom: 20px;
 	}
-	
+
 	.burger-font-icon img {
 		height: 30px;
 		margin: 10px 0 0 12px;
 	}
-	
+
 	.site-title {
 		font-family: 'Ribeye', cursive;
 	}

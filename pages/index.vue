@@ -26,7 +26,7 @@
 								<span class="icon">
 									<i class="fa fa-home"></i>
 								</span>
-									<a href="http://alicesystems.lomo.jp/wp/" target="_blank" style="text-decoration: none;">AliceSystems</a>
+									<a href="https://alicesystems.netlify.app" target="_blank" style="text-decoration: none;">AliceSystems</a>
 								</li>
 							</ul>
 						</div>
@@ -51,7 +51,7 @@
 
 <script>
 	import Profile from '~/components/Profile.vue'
-	
+
 	export default {
 		components: {
 			Profile
@@ -73,17 +73,17 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-	
+
 	.main-link {
 		padding-top: 15px;
 	}
-	
+
 	ul.is-unstyled {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	.sub-link {
 		padding-bottom: 15px;
 	}
